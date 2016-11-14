@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Курсы Веб-дизайна</title>
+    <link rel="stylesheet" href="css/jcarousel.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header class="main-header">
@@ -21,11 +25,11 @@
                     </div>
                     <div class="bottom-rogatywka"></div>
                     <div class="bottom-social">
-                        <div class="social-vk"></div>
-                        <div class="social-vb"></div>
-                        <div class="social-ok"></div>
-                        <div class="social-mail"></div>
-                        <div class="social-tw"></div>
+                        <a class="social-vk"></a>
+                        <a class="social-vb"></a>
+                        <a class="social-ok"></a>
+                        <a class="social-mail"></a>
+                        <a class="social-tw"></a>
                     </div>
                 </div>
             </div>
@@ -100,7 +104,23 @@
                         Последующие курсы предполагают изучение HTML, CSS, PHP, JavaScript</p>
                     </section>
                 </section>
-                <section class="student-works"></section>
+                <section class="student-works">
+                    <h1>Раюоты учащихся</h1>
+                    <section class="work-1">
+                        <h2>Проект Анны Клячиной, сайт «Мастерская детских стендов»</h2>
+                        <div class="jcarousel">
+                            <ul>
+                                <li><img width="100%" src="img/klyachina-1.jpg"></li>
+                                <li><img width="100%" src="img/klyachina-2.jpg"></li>
+                                <li><img width="100%" src="img/klyachina-3.jpg"></li>
+                                <li><img width="100%" src="img/klyachina-4.jpg"></li>
+                                <li><img width="100%" src="img/klyachina-5.jpg"></li>
+                            </ul>
+                        </div>
+                        <a class="jcarousel-prev" href="#">Prev</a>
+                        <a class="jcarousel-next" href="#">Next</a>
+                    </section>
+                </section>
             </div>
             <div class="content-container">
                 <section class="comments">
