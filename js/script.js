@@ -1,7 +1,21 @@
-$(function() {
-    $('.jcarousel').jcarousel({
-        animation: 'slow',
-        transitions: true,
-        wrap: 'both'
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:2
+            }
+        }
     });
 });
