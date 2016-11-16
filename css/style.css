@@ -1,0 +1,111 @@
+body {
+    background-color: #004988;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    background: #b5d1e7;
+}
+
+.header-content {
+    float: left;
+}
+
+.header-logo {
+    float: right;
+}
+
+.bottom-contacts {
+    float: left;
+}
+
+.bottom-rogatywka {
+    float: left;
+    width: 148px;
+    height: 148px;
+    
+    border-radius: 50%;
+    background: #004988 url('../img/rogatywka.png') 50% 50% no-repeat;
+}
+
+.bottom-social {
+    float: right;
+}
+
+.social {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 50%;
+    background: #004988 url('../img/social-spr.png') 50% 50% no-repeat;
+}
+
+.social-vk {
+    background-position: -5px -5px; 
+}
+
+.social-fb {
+    background-position: -283px -5px; 
+}
+
+.social-mm {
+    background-position: -74px -5px; 
+}
+
+.social-tw {
+    background-position: -215px -5px; 
+}
+
+.content-container {
+    background-color: #fff;
+}
+
+.icon {
+    position: relative;
+    
+    overflow: hidden;
+    width: 135px;
+    height: 135px;
+   
+    border: 5px solid #35521d;
+    border-radius: 15px;
+    
+    transform: rotate(45deg);
+}
+
+.icon::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    
+    display: block;
+    width: 135px;
+    height: 135px;
+    
+    background: transparent url('../img/block-spr.png') 50% 50% no-repeat;
+    
+    transform: rotate(-45deg);
+}
+
+.course-1::before {
+    background-position: 10px 0;
+}
+
+.course-2::before {
+    width: 100px;
+    height: 100px;
+    
+    background-position: -353px 30px;
+}
