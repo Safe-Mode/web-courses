@@ -72,6 +72,22 @@ body {
     background-color: #fff;
 }
 
+.block-courses {
+    float: left;
+}
+
+.block-features {
+    float: right;
+}
+
+.block-instructors {
+    float: left;
+}
+
+.student-works {
+    float: right;
+}
+
 .icon {
     position: relative;
     
