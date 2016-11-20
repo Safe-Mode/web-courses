@@ -37,6 +37,8 @@ h1 {
 }
 
 h2 {
+    margin-top: 0;
+
     font-size: 48px;
     color: #56443a;
     font-weight: 400;
@@ -140,6 +142,9 @@ h2 {
 }
 
 .content-container {
+    margin-bottom: 30px;
+    padding: 30px 40px;
+
     background-color: #fff;
 }
 
