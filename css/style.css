@@ -77,6 +77,12 @@ p {
     margin-bottom: 5px;
 }
 
+figure {
+    text-align: center;
+    margin: 0;
+    margin-right: 15px;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 40px;
@@ -363,6 +369,35 @@ p {
 
 .feature-3::before {
     background-position: -5px -20px;
+}
+
+.comments {
+    max-width: 780px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.comment {
+	margin-bottom: 30px;
+}
+
+.comment figure {
+	float: left;
+}
+
+.comment:nth-of-type(2) figure {
+	float: right;
+}
+
+.comment p {
+    overflow: hidden;
+	max-width: 595px;
+    padding: 10px 5px 15px;
+
+    text-align: center;
+
+    border: 3px solid #35521d;
 }
 
 .question-form {
