@@ -54,11 +54,13 @@ h1 {
 
 h2 {
     margin-top: 30px;
+    margin-bottom: 40px;
 
     font-size: 48px;
     line-height: 62.4px;
     color: #56443a;
     font-weight: 400;
+    text-align: center;
 }
 
 h3 {
@@ -208,7 +210,7 @@ p {
 }
 
 .block-courses h2 {
-    margin-left: 130px;
+    margin-left: 40px;
 }
 
 .block-features {
@@ -220,17 +222,58 @@ p {
 
 .block-instructors {
     float: left;
-    width: 50%;
+    width: 45%;
+    margin-right: 10%;
+}
+
+.instructor {
+	margin-top: 50px;
+}
+
+.instructor img {
+    float: left;
+    margin-right: 15px;
+}
+
+.instructor:nth-of-type(2) img {
+	float: right;
+    margin-left: 15px;
+}
+
+.instructor p {
+    overflow: hidden;
+	max-width: 370px;
+    padding: 10px 5px 15px;
+
+    text-align: center;
+
+    border: 3px solid #35521d;
 }
 
 .student-works {
     float: right;
-    width: 50%;
+    width: 45%;
+}
+
+.work {
+	margin-bottom: 50px;
+}
+
+.work:last-child {
+	margin-bottom: 0;
 }
 
 .block-instructors h2,
 .student-works, h2 {
 	margin-top: 0;
+}
+
+.student-works h2 {
+	margin-bottom: 20px;
+}
+
+.student-works h3 {
+	margin-bottom: 15px;
 }
 
 .promo-block {
