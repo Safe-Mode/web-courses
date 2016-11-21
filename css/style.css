@@ -8,6 +8,18 @@
     font-style: normal;
     font-weight: normal;
 }
+/* font-family: "MyriadProItalic"; */
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Общие стили*/
 
 body {
     background-color: #004988;
@@ -34,6 +46,9 @@ body {
 
 h1 {
     margin-top: 0;
+
+    font-size: 48px;
+    line-height: 62.4px;
     font-weight: 400;
 }
 
@@ -60,6 +75,24 @@ p {
     margin-bottom: 5px;
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 40px;
+
+    font-family: 'MyriadProItalic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #004d84;
+    text-decoration: none;
+
+    background-color: #aad2e9;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
 
 /*Хедер*/
 
@@ -80,7 +113,7 @@ p {
 
 .top-heading {
 	margin-left: 14.519%;
-    padding-top: 10px;
+    padding-top: 15px;
 
     font-size: 48px;
     font-weight: 400;
@@ -180,6 +213,9 @@ p {
 
 .block-features {
     float: right;
+    margin-right: 140px;
+
+    text-align: center
 }
 
 .block-instructors {
@@ -190,6 +226,11 @@ p {
 .student-works {
     float: right;
     width: 50%;
+}
+
+.block-instructors h2,
+.student-works, h2 {
+	margin-top: 0;
 }
 
 .promo-block {
@@ -218,6 +259,10 @@ p {
 .row .promo-block:last-child {
     float: right;
     margin-right: 0;
+}
+
+.block-features .promo-block {
+	margin-bottom: 65px;
 }
 
 .icon {
