@@ -22,7 +22,9 @@
 /*Общие стили*/
 
 body {
-    background-color: #004988;
+    min-width: 1280px;
+
+    background-color: #e6f2ff;
 
     font-family: 'MyriadProRegular', sans-serif;
     font-style: normal;
@@ -35,6 +37,8 @@ body {
 .container {
     max-width: 1280px;
     margin: 0 auto;
+
+    background-color: #004988;
 }
 
 .clearfix::after {
@@ -99,6 +103,7 @@ figure {
     border: none;
     outline: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -107,7 +112,7 @@ figure {
 .main-header {
     height: 178px;
 
-    background: #b5d1e7;
+    background-color: #b5d1e7;
 }
 
 .header-content {
@@ -117,6 +122,8 @@ figure {
 
 .header-content-top {
 	height: 100px;
+
+    background-color: #b5d1e7;
 }
 
 .top-heading {
@@ -426,17 +433,16 @@ figure {
 	padding-top: 10px;
 }
 
-.description p:last-child {
-	margin-bottom: 0;
-}
-
 .question-form {
 	float: left;
     box-sizing: border-box;
     max-width: 384px;
     padding: 20px;
+    height: 340px;
 
     text-align: center;
+
+    background-color: #004d84;
 }
 
 .question-form h2 {
@@ -465,6 +471,22 @@ figure {
 	min-height: 100px;
 }
 
-.map {
-	float: right;
+
+/*Карта*/
+
+#map_container {
+    float: right;
+
+    width: 70%;
+    height: 336px;
+
+}
+
+#map {
+    position: relative;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    height: 100%;
 }
