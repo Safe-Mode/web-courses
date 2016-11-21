@@ -446,6 +446,7 @@ figure {
 }
 
 .question-form h2 {
+    margin-top: 0;
     margin-bottom: 10px;
 
     font-family: 'MyriadProItalic', sans-serif;
