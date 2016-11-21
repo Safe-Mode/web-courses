@@ -211,6 +211,10 @@ figure {
     background-color: #fff;
 }
 
+.content-container:last-child {
+	padding: 0;
+}
+
 .block-courses {
     float: left;
 }
@@ -398,6 +402,28 @@ figure {
     text-align: center;
 
     border: 3px solid #35521d;
+}
+
+.description {
+    background-color: #fff;
+}
+
+.description img {
+    float: left;
+    margin-right: 20px;
+}
+
+.description p {
+	overflow: hidden;
+    margin-left: 10px;
+}
+
+.description p:first-line {
+	margin-left: 15px;
+}
+
+.description p:first-of-type {
+	padding-top: 10px;
 }
 
 .question-form {
