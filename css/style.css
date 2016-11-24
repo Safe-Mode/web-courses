@@ -43,7 +43,7 @@ body {
 
 .clearfix::after {
     content: '';
-    
+
     display: table;
     clear: both;
 }
@@ -170,11 +170,15 @@ figure {
 
     width: 148px;
     height: 148px;
-    
+
     border-radius: 50%;
     background: #004988 url('../img/rogatywka.png') 50% 50% no-repeat;
 
-    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+
+        -ms-transform: translate(-50%);
+
+            transform: translate(-50%);
 }
 
 .bottom-social {
@@ -189,7 +193,7 @@ figure {
     width: 50px;
     height: 50px;
     margin-right: 10px;
-    
+
     border-radius: 50%;
     background: #004988 url('../img/social-spr.png') 50% 50% no-repeat;
 }
@@ -339,31 +343,39 @@ figure {
 
 .icon {
     position: relative;
-    
+
     overflow: hidden;
     width: 95px;
     height: 95px;
     margin: 0 auto;
     margin-bottom: 30px;
-   
+
     border: 5px solid #35521d;
     border-radius: 15px;
-    
-    transform: rotate(45deg);
+
+    -webkit-transform: rotate(45deg);
+
+        -ms-transform: rotate(45deg);
+
+            transform: rotate(45deg);
 }
 
 .icon::before {
     content: '';
     position: absolute;
     z-index: -1;
-    
+
     display: block;
     width: 105px;
     height: 105px;
-    
+
     background: transparent url('../img/block-spr.png') 50% 50% no-repeat;
-    
-    transform: rotate(-45deg);
+
+    -webkit-transform: rotate(-45deg);
+
+        -ms-transform: rotate(-45deg);
+
+            transform: rotate(-45deg);
 }
 
 .course-1::before {
@@ -550,13 +562,19 @@ figure {
 }
 
 .single-arrow::before {
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
 }
 
 .single-arrow::after {
     left: 19px;
 
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+        -ms-transform: rotate(45deg);
+
+            transform: rotate(45deg);
 }
 
 .single-arrow:last-child::before,
