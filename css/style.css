@@ -166,13 +166,15 @@ figure {
 .bottom-rogatywka {
     position: absolute;
     top: 25%;
-    left: 43%;
+    left: 49.7%;
 
     width: 148px;
     height: 148px;
     
     border-radius: 50%;
     background: #004988 url('../img/rogatywka.png') 50% 50% no-repeat;
+
+    transform: translate(-50%);
 }
 
 .bottom-social {
