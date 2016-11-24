@@ -4,4 +4,5 @@
 /bower_components/
 /node_modules/
 *.psd
+*.cfg
 /web-courses/nbproject/private/
