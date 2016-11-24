@@ -158,7 +158,7 @@ figure {
 
 .bottom-contacts {
     float: left;
-    margin-left: 12%;
+    margin-left: 10%;
 
     text-align: center;
 }
@@ -178,36 +178,44 @@ figure {
 }
 
 .bottom-social {
-    float: left;
-    margin-left: 20.5%;
+    float: right;
+    margin-right: 8.5%;
 
     font-size: 0;
 }
 
 .social {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
     
     border-radius: 50%;
     background: #004988 url('../img/social-spr.png') 50% 50% no-repeat;
 }
 
+.social:last-child {
+    margin-right: 0;
+}
+
 .social-vk {
-    background-position: -5px -5px; 
+    background-position: 0 0;
 }
 
 .social-fb {
-    background-position: -283px -5px; 
+    background-position: -50px 0;
+}
+
+.social-ok {
+	background-position: -100px 0;
 }
 
 .social-mm {
-    background-position: -74px -5px; 
+    background-position: -150px 0;
 }
 
 .social-tw {
-    background-position: -215px -5px; 
+    background-position: -200px 0;
 }
 
 
