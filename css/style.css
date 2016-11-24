@@ -523,7 +523,7 @@ figure {
 }
 
 #scroller:hover {
-	opacity: 1;
+	opacity: 0.8;
     background-color: #f0f0f0;
 }
 
@@ -542,7 +542,7 @@ figure {
 	width: 25px;
     height: 5px;
 
-    background-color: #004988;
+    background-color: #36383c;
 }
 
 .single-arrow::before {
