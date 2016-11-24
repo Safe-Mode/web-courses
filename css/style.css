@@ -226,6 +226,7 @@ figure {
 
 .block-courses {
     float: left;
+    width: 45%;
 }
 
 .block-courses h2 {
@@ -234,7 +235,8 @@ figure {
 
 .block-features {
     float: right;
-    margin-right: 140px;
+    width: 45%;
+    margin-right: 5%;
 
     text-align: center
 }
@@ -315,7 +317,7 @@ figure {
 
 .row .promo-block {
     float: left;
-    margin-right: 80px;
+    margin-right: 5%;
 }
 
 .row .promo-block:last-child {
